@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.play {
+  max-width: 1350px;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.play img {
+  max-width: 1348px;
+  height: 100vh;
+}
+
+.play-btn {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5) -9.39%,
+    rgba(255, 255, 255, 0.4) 106.21%
+  );
+}
+
+.play-btn .fa {
+  font-size: 20px;
+  padding: 20px;
+  color: #6100c2;
+}
+
+.control {
+  width: 1300px;
+  height: 72px;
+  position: absolute;
+  bottom: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5) -9.39%,
+    rgba(255, 255, 255, 0.4) 106.21%
+  );
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
+
+.control .fa {
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.control p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.line {
+  width: 1000px;
+  height: 8px;
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.line div {
+  width: 600px;
+  height: 12px;
+  border-radius: 5px;
+  background: #6100c2;
+}
